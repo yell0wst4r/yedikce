@@ -1,0 +1,107 @@
+.card-img-top {
+width: 100%;
+height: 200px;
+object-fit: contain;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.wrapper{ 
+  background-color:#e7bb8b; 
+  width: 400px; 
+  border-style: double; 
+  padding: 10px; 
+  border-width: 10px; 
+  border-color: #943939 ;  
+  margin: auto;  
+  color: #943939 ;
+}
+
+.urunlist_foto{
+  width: 100px;
+  object-fit: contain;
+}
+
+.admin_foto {
+    width: 100px;
+    object-fit: contain;
+
+}
+
+  .kart_foto{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+  }
+
+  .dbaslik {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 42px;
+    color: #333;
+  }
+
+  .dicerik {
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: left;
+    font-size: 18px;
+    color: #943939;
+  }
+
+  .yorum{
+    padding-left: 400px;
+    font-size: 18px;
+
+
+  }
+
+  .ybaslik {
+    font-size: 20px;
+    padding-left: 400px;
+    padding-top: 15px;
+    font-size: 30px;
+
+  }
+
+  .foto {
+    width:900px;
+    height:600px;
+    object-fit:contain; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    
+   }
+
+  .yorum {
+    margin-bottom: 10px;
+  }
+
+  .yorum strong {
+    color: #222;
+  }
+
+  .yform {
+    width: 20%;
+    padding: 10px;
+    margin-left: 600px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .ybuton{
+    background-color: #943939;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
